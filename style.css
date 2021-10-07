@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 :root {
   --primary: #0e71e5;
   --green: #02a540;
@@ -9,6 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   width: 1024px;
@@ -47,8 +49,6 @@ button {
   letter-spacing: 1px;
   color: #333;
   transition: 0.3s;
-
-  
 }
 .btn:hover {
   color: #333;
